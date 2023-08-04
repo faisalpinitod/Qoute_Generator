@@ -1,7 +1,7 @@
 /* styles.css */
 
 /* Brown color palette */
-:root {
+/* :root {
     --primary-color: #503c2c;
     --secondary-color: #8c7a65;
     --accent-color: #d3bba0;
@@ -70,4 +70,79 @@
     line-height: 1.5;
     margin: 0;
     color: var(--text-color);
+  } */
+
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #quoteContainer {
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-style: italic;
+    line-height: 1.5;
+    min-height: 100px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+  
+    input[type="text"] {
+      padding: 8px;
+    }
+  
+    button {
+      padding: 8px 16px;
+    }
   }
