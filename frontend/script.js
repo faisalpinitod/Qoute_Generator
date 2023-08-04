@@ -17,7 +17,7 @@ const generateQuote = async () => {
     } else {
       try {
         // Make a GET request to the backend API
-        const response = await fetch(`http://localhost:8000/generate-quote?keyword=${keyword}`);
+        const response = await fetch(`https://quote-generter.onrender.com/generate-quote?keyword=${keyword}`);
         const data = await response.json();
   
         if (response.ok) {
